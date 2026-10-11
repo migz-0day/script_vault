@@ -34,7 +34,7 @@ each script should include enough information for others to understand and use i
  * configuration 
  * safety considerations
   ## license 
-This project is distributed under the license included in the repo.See [LICENSE](LICENSE.md) for the applicable terms.
+This project is distributed under the license included in the repo.See ![LICENSE](https://github.com/migz-0day/script_vault/blob/master/LICENSE) for the applicable terms.
 
 ## project_make
 a bash script to automatically generate structured project directories with .env ,.gitignore ,git initialization 
