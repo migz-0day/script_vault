@@ -40,9 +40,9 @@ def main():
     print(f"[4/4](git push origin {branch}) pushing to origin {branch}...")
     run_cmd(["git","push","origin",branch])
 
+    print("\n""*"*8)
     print("\nsuccess all changes are synced to github.")
     input("\npress Enter to exit...")
-    print("\n""*"*8)
 
 if __name__=="__main__":
     main()
