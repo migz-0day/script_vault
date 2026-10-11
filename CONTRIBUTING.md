@@ -1,4 +1,4 @@
-## contributing to script_forge
+## contributing to script_vault
 This project welcomes scripts,bug fixes,documentation improvements,tests and ideas.
 The goal is to build useful and reliable scripts that people can learn from and use.
 ## Tables of contents
