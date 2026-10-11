@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
-echo "=== make project instantly === "
+echo "=== make project === "
 read -p "enter the projects folder name:" FOLDER_NAME
 read -p "enter file name without extension: " FILE_NAME
-read -p "enter file extension (js,ts,py,go,rs,cpp): " FILE_EXT
+read -p "enter file extension (js,ts,py,go,rs,cpp,mojo): " FILE_EXT
 
 FILE_EXT="${FILE_EXT#.}"
 
@@ -27,19 +27,26 @@ echo "created $FULL_FILE"
 
 if [ "$FILE_EXT" = "js" ] || ["$FILE_EXT" = "ts"]; then 
    echo " javaScript/typescrpt found .Initializing Node proj....."
-   npm init -y > /dev/nul
+   npm init -y > /dev/null
   
-  if ["$FILE_EXT"= "ts" ]; then
+  if [ "$FILE_EXT" =  "ts" ]; then
    echo "adding dependancies...."
    npm install --save-dev typeScript @types/node > /dev/null
    npx tsc --init > /dev/null
   fi
 fi
 
+if [ "$FILE_EXT" =  "go" ]; then
+   echo "go detected.go modules"
+   go mod init > /dev/null
+   echo -e "package main/n/nimport "fmt"/n/nfunc main() {/nfmt.println("hello world")/n}" >> "$FULL_FILE"
+     
+  fi
+
 git init > /dev/null
 
-echo "================================================================"
-echo "Project '$FOLDER_NAME' created successfully "
-echo "Main file: $FULL_FILE"
-echo "================================================================"
+echo "===========m=====i=====g=====z=================================="
+echo         "Project '$FOLDER_NAME' created successfully "
+echo    "Main file: $FULL_FILE"
+echo "===========m=====i=====g======z================================="
 
