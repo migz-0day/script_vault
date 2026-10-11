@@ -1,4 +1,4 @@
-## script_forge
+## script_vault
 **A collection of useful scripts,tools and automation utilities.** 
 *The scripts are written in bash and python and currently they a total to 3. python(2),bash(1)*
 ## Languages
@@ -21,8 +21,8 @@ You can contribute by:
  5.Test your script and remove secrets or personal information.     
  5.Read [CONTRIBUTING.md](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md) for more details.
 ## security
-scripts in this repo are for educational and practical purposes.They may affect files,systems,networks,or other resources depending on funtionality.
- * reveiw code before executing it.
+scripts in this repo are for educational and practical purposes.They may affect files,systems,networks,or other resources depending on functionality.
+ * review code before executing it.
  * use security tools on systems you own
 contributors should explain any potentially destructive actions.  
 
@@ -30,7 +30,7 @@ contributors should explain any potentially destructive actions.
 each script should include enough information for others to understand and use it.
  **should state:**
  * purpose
- * requirements and dependacies
+ * requirements and dependencies
  * supported operating system
  * usage and examples
  * configuration 
