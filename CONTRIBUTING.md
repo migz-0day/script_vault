@@ -2,14 +2,14 @@
 This project welcomes scripts,bug fixes,documentation improvements,tests and ideas.
 The goal is to build useful and reliable scripts that people can learn from and use.
 ## Tables of contents
-* ![ways to contribute](https://github.com/migz-0day/script_vault/new/master#ways-to-contribute)
-* ![Before starting](https://github.com/migz-0day/script_vault/new/master#before-you-start)
-* ![Development workflow](https://github.com/migz-0day/script_vault/new/master#development-workflow)
-* ![Adding new script](https://github.com/migz-0day/script_vault/new/master#adding-a-new-script)
-* ![script requirements](https://github.com/migz-0day/script_vault/new/master#script-requirements)
-* ![Commit message](https://github.com/migz-0day/script_vault/new/master#commit-message)
-* ![Pull requests](https://github.com/migz-0day/script_vault/new/master#pull-requests)
-* ![Code of conduct](https://github.com/migz-0day/script_vault/new/master#code-of-conduct)
+* ![ways to contribute](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#ways-to-contribute)
+* ![Before starting](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#before-you-start)
+* ![Development workflow](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#development-workflow)
+* ![Adding new script](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#adding-a-new-script)
+* ![script requirements](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#script-requirements)
+* ![Commit message](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#commit-message)
+* ![Pull requests](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#pull-requests)
+* ![Code of conduct](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#code-of-conduct)
 
 ## ways to contribute
 you can contribute by:
