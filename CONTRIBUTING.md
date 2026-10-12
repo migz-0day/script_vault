@@ -53,14 +53,17 @@ example
 ```
 scripts/
 └── automation/
-    └── python/
-        └── file-organizer/
+    └── fileOrganizer/
             ├── file_organizer.py
+            |── requirements.txt (extermal python packages)
+            |── file_organizer.sh
+            |── file_organizer.go
+            |── go.mod
             └── README.md
+
 ```
-Each script should have its own documentation when it needs individual usage instruction when it needs individual usage 
-instructions,dependencies or configurations.
-Avoid submitting duplicate scripts unless they provide meaningful alternative.
+Each script should have its own documentation when it needs individual usage instruction when it needs individual usage instructions,dependencies or configurations.
+Avoid submitting duplicate scripts unless they provide meaningful alternative.  
 
 ## script requirements
 Every script should

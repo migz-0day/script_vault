@@ -36,7 +36,7 @@ each script should include enough information for others to understand and use i
  * configuration 
  * safety considerations
   ## license 
-This project is distributed under the license included in the repo.See ![LICENSE](https://github.com/migz-0day/script_vault/blob/master/LICENSE) for the applicable terms.
+This project is distributed under the license included in the repo.See ![LICENSE.md](https://github.com/migz-0day/script_vault/blob/master/LICENSE) for the applicable terms.
 
 
 
