@@ -13,7 +13,7 @@ FILE_NAME=input("enter file name without extension : ")
 FILE_EXT=input("enter file extension (js,ts,py,go,rs,) : ")
 
 if not FOLDER_NAME or not FILE_NAME or not FILE_EXT:
-    print(f"error all field required")
+    print(f"[!]error all field required")
     sys.exit(1)
 
 os.makedirs(FOLDER_NAME)
@@ -32,19 +32,19 @@ with open(FULL_FILE,"w") as f:
     elif FILE_EXT in ["js","ts"]:
       f.write("// main entry point\nconsole.log('hello world');\n")
 
-print(f"created{FULL_FILE}")
+print(f"[*]created{FULL_FILE}")
 
 if FILE_EXT in ["js","ts"]:
  print("javascript/typescript found.initializing node project...")
  subprocess.run("npm init -y", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 if FILE_EXT in ["ts","tsx"]:
-   print("installing typescript depende....")
+   print("[*]installing typescript depende....")
    subprocess.run("npm install --save-dev typescript @types/node", shell=True,stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
    subprocess.run("npx tsc --init",shell=True,stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 if FILE_EXT in ["jsx","tsx"]:
-   print("react......")
+   print("[*]react......")
    run_cmd("npm install react react-dom")
    if FILE_EXT=="tsx":
         run_cmd("npm install --save-dev @types/react @types/react-dom")

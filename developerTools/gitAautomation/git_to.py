@@ -9,20 +9,20 @@ def run_cmd(command):
 
 def main():
     print("=*"*25)
-    print("=== checking git status ===")
+    print("[**] checking git status")
     print("running (git status --short)")
     run_cmd(["git", "status", "--short"])
     
     status=subprocess.run(["git", "status", "--porcelain"],capture_output=True,text=True,shell=True)
     if not status.stdout.strip():
-        print("\nworking tree clean.Nothing to commit")
-        input("\npress enter to exit...")
+        print("\n[*]working tree clean.Nothing to commit")
+        input("\n[*]press enter to exit...")
         sys.exit(0)
 
-    commit_msg=input("\n Enter commit message: ").strip()
+    commit_msg=input("\n[*] Enter commit message: ").strip()
     if not commit_msg:
-        print("commit message can't be empty.Aborting ")
-        input("\n press enter to exit...")
+        print("[!]commit message can't be empty.Aborting ")
+        input("\n[*]press enter to exit...")
         sys.exit(1)
 
     branch_cmd = subprocess.run(["git","rev-parse","--abbrev-ref","HEAD"],capture_output=True,text=True,shell=True)
@@ -40,9 +40,9 @@ def main():
     print(f"[4/4](git push origin {branch}) pushing to origin {branch}...")
     run_cmd(["git","push","origin",branch])
 
-    print("\n""*"*8)
-    print("\nsuccess all changes are synced to github.")
-    input("\npress Enter to exit...")
+    print("*"*8)
+    print("\n[*]success all changes are synced to github.")
+    input("\n[*]press Enter to exit...")
 
 if __name__=="__main__":
     main()

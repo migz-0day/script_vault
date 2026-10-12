@@ -14,7 +14,7 @@ a bash script to automatically generate structured project directories with .env
 1.Clone the repo
 ```bash
 git clone https://github.com/migz-0day/script_vault.git
-cd script_vault
+cd script_vault/DeveloperTools/create_project
 ```
 
 2.make it exaecutable
@@ -41,7 +41,7 @@ cd script_vault
 python scripts/devTools/create_project.py
 ```
 ## On teminal
-```bash
+```
 notepad $PROFILE
 ```
 ```bash
