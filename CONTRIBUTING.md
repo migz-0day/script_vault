@@ -25,7 +25,7 @@ you can contribute by:
 3.Check existing issues for related bugs or feature requests.  
 4.For large changes,open an issue firs to discuss your proposal.  
 ## Development workflow
-1.Fork the repo.
+1.Fork the repo.  
 2.clone your fork:
    ```bash
     git clone https://github.com/migz-0day/script_vault.git
@@ -35,9 +35,9 @@ you can contribute by:
   ```bash
    git switch -c add-your-script
 ```
-4.Add improve script.
-5.Test your changes locally.
-6.Commit your changes:
+4.Add or improve script.  
+5.Test your changes locally.  
+6.Commit your changes:  
 ```bash
   git add .
   git commit -m "add: your script" 
