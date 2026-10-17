@@ -20,10 +20,10 @@ you can contribute by:
   * Reporting bugs or suggesting new features or scripts.
 
 ## Before you start
-1.check whether a similar script already exists(if it uses a different language from what you used its acceptable)
-2.Read the documentation for the script and category you want to work on.
-3.Check existing issues for related bugs or feature requests.
-4.For large changes,open an issue firs to discuss your proposal.
+1.check whether a similar script already exists(if it uses a different language from what you used its acceptable)  
+2.Read the documentation for the script and category you want to work on.  
+3.Check existing issues for related bugs or feature requests.  
+4.For large changes,open an issue firs to discuss your proposal.  
 ## Development workflow
 1.Fork the repo.
 2.clone your fork:
