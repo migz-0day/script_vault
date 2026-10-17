@@ -28,8 +28,8 @@ you can contribute by:
 1.Fork the repo.
 2.clone your fork:
    ```bash
-    git clone https://github.com/migz-0day/script_forge.git
-    cd script_forge
+    git clone https://github.com/migz-0day/script_vault.git
+    cd script_vault
  ```
 3.create a branch
   ```bash
