@@ -1,6 +1,6 @@
 ## script_vault
 **A collection of useful scripts,tools and automation utilities.** 
-*The scripts are written in bash and python and currently they a total to 4. python(3),bash(1)*
+*The scripts are written in bash and python and currently they a total to 4. python(3),bash(2)*
 ## Languages
 * Bash
 * python
