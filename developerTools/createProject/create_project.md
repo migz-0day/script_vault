@@ -25,12 +25,14 @@ chmod +x create-project.sh
 ```bash
 ./create-project.sh
 ```
+or whaever yo rename it    
+
 4.to make it accessible globally on your system
 ```bash
 sudo cp create-project.sh /usr/local/bin/create-project
 ```
 
-## for python script
+## for create_project.py
 ## 1.Clone the repo
 ```bash
 git clone https://github.com/migz-0day/script_vault.git

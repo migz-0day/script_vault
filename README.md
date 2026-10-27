@@ -17,9 +17,9 @@ You can contribute by:
  1.check whether a similar script exists (if it uses a different language(go,powershell)it's acceptable).  
  2.place your script in appropriate category if any.  
  3.include a clear description and usage instruction.
- 4.document dependencies and supported platforms.
- 5.Test your script and remove secrets or personal information.     
- 5.Read [CONTRIBUTING.md](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md) for more details.
+ 4.document dependencies and supported platforms.   
+ 5.Test your script and remove secrets or personal information.        
+ 6.Read [CONTRIBUTING.md](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md) for more details.
 ## security
 scripts in this repo are for educational and practical purposes.They may affect files,systems,networks,or other resources depending on functionality.
  * review code before executing it.
