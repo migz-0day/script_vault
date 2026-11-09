@@ -1,11 +1,55 @@
+"""
+v1.1.0
+adds a gitignore file if doesnt exixts and adds any forgotten sensitive file or folder in gitignore
+"""
+
 import subprocess
 import sys 
+import os
 
 def run_cmd(command):
     result=subprocess.run(command, text=True, shell=True)
     if result.returncode != 0:
         print(f"\n command failed: {' '.join(command)}")
         sys.exit(1)
+
+def is_repo():
+    res=subprocess.run("git rev-parse --is-inside-work-tree",shell=True,capture_output=True,text=True)
+    return res.returncode == 0 
+
+def gitignore_check_add():
+    gitignore_path=".gitignore"
+    ignored_items = [
+        "node_modules/",
+        "__pycache__/",
+        "*.env",
+        "*.env",
+        "venv/"
+        "env/"
+        ".DS_Store",
+        "*.log"
+    ]
+    existing_items = ""
+
+    if os.path.exists(gitignore_path):
+        with open(gitignore_path,"r",encoding="utf-8",errors="ignore") as f:
+            existing_items=f.read()
+
+    new_items= []
+    for item in ignored_items:
+        if item not in existing_items:
+            new_items.append(item)
+
+    if new_items:
+        print(f"\n [+] Adding sensitive folders/files to gitignore.\nThe following are being added {new_items}")
+        with open(gitignore_path,"a",encoding="utf-8") as f:
+            if existing_items and not existing_items.endswith("\n"):
+                f.write("\n")
+
+            f.write("# Added \n")
+            for item in new_items:
+                f.write(f"{item}\n")
+
 
 def main():
     print("=*"*25)
@@ -25,6 +69,7 @@ def main():
         input("\n[*]press enter to exit...")
         sys.exit(1)
 
+    gitignore_check_add()
     branch_cmd = subprocess.run(["git","rev-parse","--abbrev-ref","HEAD"],capture_output=True,text=True,shell=True)
     branch=branch_cmd.stdout.strip()
 
