@@ -25,14 +25,14 @@ chmod +x create-project.sh
 ```bash
 ./create-project.sh
 ```
-or whaever yo rename it    
+or whatever name you renamed it    
 
 4.to make it accessible globally on your system
 ```bash
 sudo cp create-project.sh /usr/local/bin/create-project
 ```
 
-## for create_project.py
+# create_project.py
 ## 1.Clone the repo
 ```bash
 git clone https://github.com/migz-0day/script_vault.git
@@ -43,12 +43,14 @@ cd script_vault
 python scripts/devTools/create_project.py
 ```
 ## On teminal
-```
+```bash
 notepad $PROFILE
 ```
 ```bash
-function (universal name on how to call it){ python "c:\path\of\file\creat_project.py" @args }
+function (universal name on how to call it){ python "c:\path\of\file\create_project.py" @args }
 ```
-
-
+example:
+```bash
+function nproj { python "C:\path\to\create_project.py" $args }
+```
 

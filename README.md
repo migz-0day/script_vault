@@ -1,10 +1,22 @@
 ## script_vault
 **A collection of useful scripts,tools and automation utilities.** 
-*The scripts are written in bash and python and currently they a total to 4. python(3),bash(2)*
+* The scripts are written in bash and python and currently they a total to 4. python(3),bash(2)*
+* visit [changelog](https://github.com/migz-0day/script_vault/blob/master/changelog.md) to see what's new.
 ## Languages
 * Bash
 * python
 * Go
+
+| :--_              | :---  |
+|script file        |  use  |
+|:---               | :---  |
+|create_project.py  | creates a folder and files containing the desired language depending on extension this includes installing dependancies|
+| create_project.sh |             |
+|:---               | :---  |
+|git_to.py          |automates git commit and push |
+| :---              | :---  |
+|system.sh          | checks system performance     |
+
 ## contributing
 contributions are welcomed:
 You can contribute by:

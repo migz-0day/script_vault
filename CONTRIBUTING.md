@@ -9,7 +9,7 @@ The goal is to build useful and reliable scripts that people can learn from and 
 * ![script requirements](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#script-requirements)
 * ![Commit message](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#commit-message)
 * ![Pull requests](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#pull-requests)
-* ![Code of conduct](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#code-of-conduct)
+* ![Code of conduct](CONTRIBUTING.md#code-of-conduct)
 
 ## ways to contribute
 you can contribute by:
@@ -49,8 +49,8 @@ you can contribute by:
 8.Open a pull request against the original script_forge repository.
 ## Adding a new script
 Place you script in appropriate category.  
-example
-```
+example: 
+```text
 scripts/
 └── automation/
     └── fileOrganizer/
@@ -85,7 +85,7 @@ Examples
   * Improve ..script documentation   
     (add,fix,hotfix,refactor,chore,docs)
 # pull requests
-Before opening pull requests
+Before opening pull requests   
 * Ensure your script is in the correct directory.
 * verify document matches actual script.
 * Remove temporary files and how you tested it
