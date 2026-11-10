@@ -10,6 +10,7 @@ a bash script to automatically generate structured project directories with .env
 * git
 * node and npm (for js and ts)
 
+## project_make.sh
 ## installation and usage
 1.Clone the repo
 ```bash
@@ -36,7 +37,7 @@ sudo cp create-project.sh /usr/local/bin/create-project
 ## 1.Clone the repo
 ```bash
 git clone https://github.com/migz-0day/script_vault.git
-cd script_vault
+cd script_vault/scripts/devTools/
 ```
 ## To run
 ```bash
@@ -46,11 +47,11 @@ python scripts/devTools/create_project.py
 ```bash
 notepad $PROFILE
 ```
-```bash
-function (universal name on how to call it){ python "c:\path\of\file\create_project.py" @args }
+```powershell
+function universal name on how to call it{ python "c:\path\of\file\create_project.py" @args }
 ```
 example:
-```bash
+```powershell
 function nproj { python "C:\path\to\create_project.py" $args }
 ```
 

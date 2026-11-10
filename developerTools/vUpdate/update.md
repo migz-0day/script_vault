@@ -1,5 +1,4 @@
-## node_update.py
-used for updating node modules on projects.   
+## node_update.py   
 it simply just updates the package.json by adding the node version.its currently placed to default "node":"=>24.22.1".meaning it adds
 ```json
  "engines": {

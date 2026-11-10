@@ -4,11 +4,11 @@ The goal is to build useful and reliable scripts that people can learn from and 
 ## Tables of contents
 * ![ways to contribute](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#ways-to-contribute)
 * ![Before starting](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#before-you-start)
-* ![Development workflow](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#development-workflow)
-* ![Adding new script](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#adding-a-new-script)
-* ![script requirements](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#script-requirements)
-* ![Commit message](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#commit-message)
-* ![Pull requests](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md#pull-requests)
+* ![Development workflow](CONTRIBUTING.md#development-workflow)
+* ![Adding new script](CONTRIBUTING.md#adding-a-new-script)
+* ![script requirements](CONTRIBUTING.md#script-requirements)
+* ![Commit message](CONTRIBUTING.md#commit-message)
+* ![Pull requests](CONTRIBUTING.md#pull-requests)
 * ![Code of conduct](CONTRIBUTING.md#code-of-conduct)
 
 ## ways to contribute

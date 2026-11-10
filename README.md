@@ -7,15 +7,14 @@
 * python
 * Go
 
-| :--_              | :---  |
+
 |script file        |  use  |
 |:---               | :---  |
-|create_project.py  | creates a folder and files containing the desired language depending on extension this includes installing dependancies|
-| create_project.sh |             |
-|:---               | :---  |
-|git_to.py          |automates git commit and push |
-| :---              | :---  |
-|system.sh          | checks system performance     |
+|[create_project.py](https://github.com/migz-0day/script_vault/blob/master/developerTools/createProject/create_project.py) | creates a folder and files containing the desired language depending on extension this includes installing dependancies|
+| [create_project.sh](developerTools/createProject/create_project.sh) | same as create_project.py |
+| [git_to.py](https://github.com/migz-0day/script_vault/blob/master/developerTools/gitAutomation/autoGit/git_to.py)         |automates git commit and push |
+|[system.sh](https://github.com/migz-0day/script_vault/blob/master/systemAdmin/system.sh) | gives information about your linux distro including user,hostname,cpu information and disk usage   |
+|[node_update.py](https://github.com/migz-0day/script_vault/blob/master/developerTools/vUpdate/node_update.py)| quickly adds or updates node version .|
 
 ## contributing
 contributions are welcomed:
@@ -24,11 +23,11 @@ You can contribute by:
 *  Fixing bugs.
 *  Adding documentation or usage examples.
 *  Writing tests
-* Suggesting new tools or categories.
+*  Suggesting new tools or categories.
 ## Before submitting a contribution:
  1.check whether a similar script exists (if it uses a different language(go,powershell)it's acceptable).  
- 2.place your script in appropriate category if any.  
- 3.include a clear description and usage instruction.
+ 2.place your script in appropriate category if any.        
+ 3.include a clear description and usage instruction.    
  4.document dependencies and supported platforms.   
  5.Test your script and remove secrets or personal information.        
  6.Read [CONTRIBUTING.md](https://github.com/migz-0day/script_vault/blob/master/CONTRIBUTING.md) for more details.
