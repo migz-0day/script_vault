@@ -1,7 +1,7 @@
 ## script_vault
 **A collection of useful scripts,tools and automation utilities.** 
 * The scripts are written in bash and python and currently they a total to 5. python(3),bash(2)
-* visit [CHANGELOG](https://github.com/migz-0day/script_vault/blob/master/changelog.md) to see what's new.
+* visit [CHANGELOG.md](https://github.com/migz-0day/script_vault/blob/master/changelog.md) to see what's new.
 ## Languages
 * Bash
 * python
@@ -9,12 +9,12 @@
 
 
 |script file        |  os   |  use  |
-|:---               | :---: | ----: |
-|[create_project.py](developerTools/createProject/create_project.py)| | creates a folder and files containing the desired language depending on extension this includes installing dependencies|
-| [create_project.sh](developerTools/createProject/create_project.sh)| | same as create_project.py |
-| [git_to.py](developerTools/gitAutomation/autoGit/git_to.py)| |automates git commit and push |
-|[system.sh](systemAdmin/system.sh)| | gives information about your linux distro including user,hostname,cpu information and disk usage   |
-|[node_update.py](developerTools/vUpdate/node_update.py)| | quickly adds or updates node version .|
+|:---               | :---: | :--- |
+|[create_project.py](developerTools/createProject/create_project.py)|| creates a folder and files containing the desired language depending on extension this includes modules/packages/crates|
+| [create_project.sh](developerTools/createProject/create_project.sh)|| same as create_project.py|
+| [git_to.py](developerTools/gitAutomation/autoGit/git_to.py)| |automates git commit and push|
+|[system.sh](systemAdmin/system.sh)|| gives information about your linux distro including user,hostname,cpu information and disk usage|
+|[node_update.py](developerTools/vUpdate/node_update.py)|| quickly adds or updates node version.|
 ###
 **os shows the os that have been tested and confirmed to work .Currently all the scripts work on linux.View [issues](https://github.com/migz-0day/script_vault/issues/1)**
 ## contributing
@@ -48,5 +48,5 @@ each script should include enough information for others to understand and use i
  * configuration 
  * safety considerations
   ## license 
-This project is distributed under the MIT license .See ![LICENSE.md](https://github.com/migz-0day/script_vault/blob/master/LICENSE) for the applicable terms.
+This project is distributed under the MIT license .See [LICENSE.md](https://github.com/migz-0day/script_vault/blob/master/LICENSE) for the applicable terms.
 
