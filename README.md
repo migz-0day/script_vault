@@ -8,14 +8,15 @@
 * Go
 
 
-|script file        |  use  |
-|:---               | :---  |
-|[create_project.py](developerTools/createProject/create_project.py) | creates a folder and files containing the desired language depending on extension this includes installing dependencies|
-| [create_project.sh](developerTools/createProject/create_project.sh) | same as create_project.py |
-| [git_to.py](developerTools/gitAutomation/autoGit/git_to.py)         |automates git commit and push |
-|[system.sh](systemAdmin/system.sh) | gives information about your linux distro including user,hostname,cpu information and disk usage   |
-|[node_update.py](developerTools/vUpdate/node_update.py)| quickly adds or updates node version .|
-
+|script file        |  os   |  use  |
+|:---               | :---: | ----: |
+|[create_project.py](developerTools/createProject/create_project.py)| | creates a folder and files containing the desired language depending on extension this includes installing dependencies|
+| [create_project.sh](developerTools/createProject/create_project.sh)| | same as create_project.py |
+| [git_to.py](developerTools/gitAutomation/autoGit/git_to.py)| |automates git commit and push |
+|[system.sh](systemAdmin/system.sh)| | gives information about your linux distro including user,hostname,cpu information and disk usage   |
+|[node_update.py](developerTools/vUpdate/node_update.py)| | quickly adds or updates node version .|
+###
+**os shows the os that have been tested and confirmed to work .Currently all the scripts work on linux.View [issues](https://github.com/migz-0day/script_vault/issues/1)**
 ## contributing
 contributions are welcomed:
 You can contribute by:
