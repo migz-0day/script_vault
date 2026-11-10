@@ -1,0 +1,2 @@
+## [v 1.1.0] 11-09-2026
+* only runs if the file extension is supported if not it sends a request asking the user to to create a new issue on clicking the request the user is taken to the repository issues page.and auto writes the request for the user.
