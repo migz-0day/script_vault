@@ -16,7 +16,7 @@ you can contribute by:
   * Adding a useful script
   * fixing bugs in existing scripts.
   * improving readability and performance.
-  * Adding tests.
+  * Adding tests.(pytest)
   * Reporting bugs or suggesting new features or scripts.
 
 ## Before you start
