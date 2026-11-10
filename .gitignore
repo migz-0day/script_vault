@@ -2,7 +2,8 @@ node_modules/
 __pycache__/
 *.env
 .env*
-venv/
+.ruff_cache/
+.venv/
 env/
 .DS_Store
 *.log
